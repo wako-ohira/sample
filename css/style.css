@@ -1,0 +1,172 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #082b08;
+  line-height: 1.5;
+}
+
+.container {
+  width: 90%;
+  max-width: 980px;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: #082b08;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.text-custom {
+  color: rgb(255, 153, 102) !important;;
+}
+
+
+
+/*=====================
+共通section
+=======================*/
+
+.section {
+  padding: 60px;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.nav-link {
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+
+
+/*======================
+top
+=======================*/
+
+.top {
+  padding: 150px;
+  background: url(../images/retrosupply-jLwVAUtLOAQ-unsplash.jpg);
+  text-align: center;
+  background-size: cover;
+  position: relative;
+}
+
+.top::after {
+  content: '';
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+}
+
+.top-title {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.top-subtitle {
+  font-size: 18px;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+/*======================
+works
+=======================*/
+
+.carousel-caption {
+  position: unset;
+}
+
+.btn-work {
+  background-color: rgb(255, 153, 102) !important;;
+  color: white;
+}
+
+.btn-work:hover {
+  color: white;
+}
+
+/*===========================
+スマホ用表示
+============================*/
+
+@media only screen and (max-width: 767px) {
+
+p {
+  font-size: 14px;
+}
+
+
+
+/*=====================
+共通section表示
+=======================*/
+.section {
+  padding:30px 15px;
+  margin-top: 20px;
+}
+
+.section-title {
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+
+/*===========================
+top表示
+============================*/
+
+.top {
+  padding:100px 0;
+}
+
+
+.top-title {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.top-subtitle {
+  font-size: 15px;
+}
+
+/*===========================
+btn表示
+============================*/
+.btn {
+  font-size: 13px;
+}
+
+/*===========================
+freepaper表示
+============================*/
+
+.freepaper-title {
+  font-size: 17px;
+}
+
+}
+
+
