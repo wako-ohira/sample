@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #082b08;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.container {
+  width: 90%;
+  max-width: 980px;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #082b08 !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.text-custom {
+  color: rgb(255, 153, 102) !important;;
+}
+
+/* header */
+header {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+header .header-left {
+  float: left;
+}
+
+header .header-left img {
+  width: 50%;
+  height: auto;
+}
+
+header .header-right {
+  float: right;
+  padding-top: 10px;
+}
+
+header .header-right .header-list {
+  float: left;
+  margin-right: 20px;
+}
+
+header .header-right .header-list:hover {
+  opacity: 0.5;
+}
+
+.header-button {
+  display: none;
+}
+
+
+/*=====================
+共通section
+=======================*/
+
+.section {
+  padding: 60px;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.nav-link {
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+
+
+/*======================
+top
+=======================*/
+
+.top {
+  padding: 150px;
+  background: url(../images/retrosupply-jLwVAUtLOAQ-unsplash.jpg);
+  text-align: center;
+  background-size: cover;
+  position: relative;
+}
+
+.top::after {
+  content: '';
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+}
+
+.top-title {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.top-subtitle {
+  font-size: 18px;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+/*======================
+works
+=======================*/
+
+.carousel-caption {
+  position: unset;
+}
+
+.btn-work {
+  background-color: rgb(255, 153, 102) !important;
+  color: white !important;
+}
+
+.btn-work:hover {
+  color: white;
+}
+
+/* トップページボタン */
+
+#page-top {
+  text-align: right;
+  position: fixed;
+  z-index: 50;
+  right: 30px ;
+	bottom: 30px ;
+}
+
+
+
+
+/*===========================
+レスポンシブ
+============================*/
+
+@media only screen and (max-width: 767px) {
+
+p {
+  font-size: 14px;
+}
+
+
+
+/*=====================
+共通section表示
+=======================*/
+.section {
+  padding:30px 15px;
+  margin-top: 20px;
+}
+
+.section-title {
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+/*===========================
+header表示
+============================*/
+.header-left {
+  display: none;
+}
+
+.header-list {
+  display: none;
+}
+
+.header-button {
+  display: block;
+}
+
+
+/*===========================
+top表示
+============================*/
+
+.top {
+  padding:100px 0;
+}
+
+
+.top-title {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.top-subtitle {
+  font-size: 15px;
+}
+
+/*===========================
+btn表示
+============================*/
+.btn {
+  font-size: 13px;
+}
+
+/*===========================
+freepaper表示
+============================*/
+
+.freepaper-title {
+  font-size: 17px;
+}
+
+}
+
+
+
